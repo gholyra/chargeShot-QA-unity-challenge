@@ -34,7 +34,7 @@ shelf/
 workspace.xml
 # Rider ignored files
 modules.xml
-.idea.ChargeShotGame.iml
+.idea/
 projectSettingsUpdater.xml
 contentModel.xml
 # Editor-based HTTP Client requests
