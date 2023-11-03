@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "ChargeShotGame.sln"
+    "dotnet.defaultSolution": "chargeShot-unity-challenge.sln"
 }
