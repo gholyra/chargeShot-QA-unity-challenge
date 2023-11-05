@@ -1,0 +1,1713 @@
+fileFormatVersion: 2
+guid: d67fa207ca30c44438bc336de1560e35
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 246
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455fc55dbd155c5498c64185327dd1bb
+      internalID: -588610703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 262
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e70ee963b4de34c8f0ad3db3d7496b
+      internalID: 487326704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 246
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28071e703a6933e4f8d98265cb486d84
+      internalID: 1604263006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 246
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425615efd8ddbca4c997e48555db7bf7
+      internalID: 1124977168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 246
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4173eda521298f848869488083c2b5fe
+      internalID: 1798768806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 246
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4a27079c2bc244d9ee0d6b57765485
+      internalID: 2097434930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 246
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a1e1b72c76b524e992dc60b6e72b41
+      internalID: -1434734436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_7
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 246
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202dd3df98ab96c49b0fb7295ed0eb07
+      internalID: 536466195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 246
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df1e60db11827b4ca00033bd3bedfb4
+      internalID: -1363715890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_9
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 246
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3742319a416f054d80476a5b6b0740c
+      internalID: -362444573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 210
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452441bf323dcde4ba3b36dc72313c59
+      internalID: 1526245111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 210
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964c7574e9fc9b645828857327e6ab21
+      internalID: -1329064400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_12
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 210
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd13a23033542c646b7113c4e2175387
+      internalID: 466442924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_13
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 210
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f97aa3b0e226d4cbec4c9553a4f237
+      internalID: -226343702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_14
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 210
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe9417075c78064d8721b1c237b27de
+      internalID: -2110225011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_15
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 210
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a03927947197224489749b7d1003dcf
+      internalID: 365293896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_16
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 210
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bde19073daa5ec41ad69bb97e445a72
+      internalID: -529776567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_17
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 210
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a109844e3ffc9b340aef612dc6a8845e
+      internalID: -1110012859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_18
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 210
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3768e174b82cd464aa4906fe7fd278dd
+      internalID: 231564089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_19
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 170
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cf6e0b0b0511e48ba5666c6cc2b869
+      internalID: 1647840414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 170
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6869e1e4c1b40914d9a62a8dad1789b7
+      internalID: 1412115345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_21
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 170
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bb6fc8bc4e87e449e76992cdb191d6
+      internalID: -627859420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_22
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 175
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f00ed563fe65f04abcfbe4926f1ab9b
+      internalID: -519848485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_23
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 170
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e80f58feffd53c4084edb66402e91fe
+      internalID: 31623091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_24
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 170
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8399e972f23ea14c940e49fbf311129
+      internalID: -19805517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_25
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 170
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8439c3498362bec4aa52ae09a73daf42
+      internalID: 696952520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_26
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 170
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0f7b2eb12cb7a4d8f0a1ebae48fdb3
+      internalID: -1052224883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_27
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 170
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ab491873c82414bb05b6b2c9fbac22
+      internalID: 750940600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_28
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 170
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555b15ab1ebaee5479c8abbc433fdf9e
+      internalID: -272699377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_29
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 170
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336e98bc88b731b46af04b471506de48
+      internalID: -1824243360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 123
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf370bc6c1f21024c85d8ee679d7c516
+      internalID: 171134808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 123
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c198099d1db821a4dbe9a72f6400eb6e
+      internalID: -1500725230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_32
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 123
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fcc079ea2424849bf926452203baf0
+      internalID: -640638398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_33
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 123
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b01cfc8d125fe4fa8763636a0c1a96
+      internalID: 1193554429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_34
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 123
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a274b746961be488d244028dd14983
+      internalID: -577468084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 122
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3be26d09ce86445940d0edd8510049
+      internalID: 331350574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_36
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 122
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53705db0ab04f7748be888352a24f1f1
+      internalID: 1121823209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_37
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 123
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ead2ca25a76954eb761311a63b5407
+      internalID: -455990086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_38
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 123
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02829f77cd09e134c8163ee8d72612fa
+      internalID: -1291505731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_39
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 123
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369527bf5a15cce489a5aadd616b5546
+      internalID: 1614121900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_40
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 123
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb600dceef973ad42b3590a9f9635b70
+      internalID: -407206435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_41
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 123
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbbdefadfd9c80439e5059fd97acce4
+      internalID: -1586322951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_42
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 80
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c7fa275f40dea4598820853b373691
+      internalID: -1084345352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939f05e6a7fa5d74eb31363833c816e7
+      internalID: 197021050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_44
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 80
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06df2f7c5b6dae499c40db8b8bdc12f
+      internalID: 1259568707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_45
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 80
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580fe47ea4231534399f78480b4aa04e
+      internalID: -939994788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_46
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 80
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7094ed053650d4d4dabdf2c3e31bf383
+      internalID: -2093248817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_47
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 80
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51babdae899376142969a513f2db3ee7
+      internalID: -877156972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_48
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 80
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788ffc3ef5bca1449840ca45d340d93d
+      internalID: -2010211036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_49
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 80
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfb71abb8a7e6248ac6da36190eaeb8
+      internalID: -293028704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_50
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 80
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0da8d4bc42b9d44291bc366dedff4a1
+      internalID: 429999772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_51
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 80
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12762f9020425974fa648291459bc2f7
+      internalID: -1649842040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_52
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 80
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2a43529a8a3b8429a8d17abdfed78f
+      internalID: -1300673056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_53
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 41
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cb349c93e05c84d80f6104be0640b2
+      internalID: 2044149865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_54
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 41
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2fb9d627c295a42bcb98a8e17adf11
+      internalID: 934091453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_55
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 41
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256fd5924226662439e6d7411be97044
+      internalID: 695589328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_56
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 41
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5762cdec8fc1d3429bd7b462dc4875d
+      internalID: -1358254699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_57
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 41
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6706126834884ff48912f7852bdfdd5d
+      internalID: -1784858689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_58
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 41
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b524e46f1d00d1c4ca9b1762917b8f32
+      internalID: 1892158987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_59
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 41
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84484f7f02f1c43408d21329c28dadb8
+      internalID: -1567711132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_60
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 41
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c6baaff6eed964eb7add00d8c6ac3e
+      internalID: -1011127889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_61
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 41
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce352aaec779bd4188610e2a59fe7fc
+      internalID: -2042904610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_62
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 41
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f1203b2cc84fb40ba072947a9f4483
+      internalID: 1432555944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_64
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 41
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70e3e8ac00fd4a4a988d353e0758eb8
+      internalID: 2034845212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_65
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 41
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33a7daf50487af429a58ccf7d3ccc18
+      internalID: -1350334842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_67
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 3
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccfa0ca867a4654392b3b7e66dfbdd7
+      internalID: 1661220945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_68
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 3
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9136ad1cca0fe374bbe016a5dfe97f74
+      internalID: 738026859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_69
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 3
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f6ab60abbf16e44b7695ae718a9694
+      internalID: 138154546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_70
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 3
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a8a0c6df80fc543bdec905ca10ad19
+      internalID: -843063274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_71
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 3
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0f201c95c59f344bc1072783706e11
+      internalID: -1719238130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_72
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 3
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152acd0de5e8aef43a675bb9b4683154
+      internalID: -310585665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_bit_megaman_by_bongwater_bandit_d87w92l_73
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 3
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd7a46b9a1daa54ea4f94d70fff24c6
+      internalID: -2054096607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      16_bit_megaman_by_bongwater_bandit_d87w92l_0: -588610703
+      16_bit_megaman_by_bongwater_bandit_d87w92l_1: 487326704
+      16_bit_megaman_by_bongwater_bandit_d87w92l_10: 1526245111
+      16_bit_megaman_by_bongwater_bandit_d87w92l_11: -1329064400
+      16_bit_megaman_by_bongwater_bandit_d87w92l_12: 466442924
+      16_bit_megaman_by_bongwater_bandit_d87w92l_13: -226343702
+      16_bit_megaman_by_bongwater_bandit_d87w92l_14: -2110225011
+      16_bit_megaman_by_bongwater_bandit_d87w92l_15: 365293896
+      16_bit_megaman_by_bongwater_bandit_d87w92l_16: -529776567
+      16_bit_megaman_by_bongwater_bandit_d87w92l_17: -1110012859
+      16_bit_megaman_by_bongwater_bandit_d87w92l_18: 231564089
+      16_bit_megaman_by_bongwater_bandit_d87w92l_19: 1647840414
+      16_bit_megaman_by_bongwater_bandit_d87w92l_2: 1604263006
+      16_bit_megaman_by_bongwater_bandit_d87w92l_20: 1412115345
+      16_bit_megaman_by_bongwater_bandit_d87w92l_21: -627859420
+      16_bit_megaman_by_bongwater_bandit_d87w92l_22: -519848485
+      16_bit_megaman_by_bongwater_bandit_d87w92l_23: 31623091
+      16_bit_megaman_by_bongwater_bandit_d87w92l_24: -19805517
+      16_bit_megaman_by_bongwater_bandit_d87w92l_25: 696952520
+      16_bit_megaman_by_bongwater_bandit_d87w92l_26: -1052224883
+      16_bit_megaman_by_bongwater_bandit_d87w92l_27: 750940600
+      16_bit_megaman_by_bongwater_bandit_d87w92l_28: -272699377
+      16_bit_megaman_by_bongwater_bandit_d87w92l_29: -1824243360
+      16_bit_megaman_by_bongwater_bandit_d87w92l_3: 1124977168
+      16_bit_megaman_by_bongwater_bandit_d87w92l_30: 171134808
+      16_bit_megaman_by_bongwater_bandit_d87w92l_31: -1500725230
+      16_bit_megaman_by_bongwater_bandit_d87w92l_32: -640638398
+      16_bit_megaman_by_bongwater_bandit_d87w92l_33: 1193554429
+      16_bit_megaman_by_bongwater_bandit_d87w92l_34: -577468084
+      16_bit_megaman_by_bongwater_bandit_d87w92l_35: 331350574
+      16_bit_megaman_by_bongwater_bandit_d87w92l_36: 1121823209
+      16_bit_megaman_by_bongwater_bandit_d87w92l_37: -455990086
+      16_bit_megaman_by_bongwater_bandit_d87w92l_38: -1291505731
+      16_bit_megaman_by_bongwater_bandit_d87w92l_39: 1614121900
+      16_bit_megaman_by_bongwater_bandit_d87w92l_4: 1798768806
+      16_bit_megaman_by_bongwater_bandit_d87w92l_40: -407206435
+      16_bit_megaman_by_bongwater_bandit_d87w92l_41: -1586322951
+      16_bit_megaman_by_bongwater_bandit_d87w92l_42: -1084345352
+      16_bit_megaman_by_bongwater_bandit_d87w92l_43: 197021050
+      16_bit_megaman_by_bongwater_bandit_d87w92l_44: 1259568707
+      16_bit_megaman_by_bongwater_bandit_d87w92l_45: -939994788
+      16_bit_megaman_by_bongwater_bandit_d87w92l_46: -2093248817
+      16_bit_megaman_by_bongwater_bandit_d87w92l_47: -877156972
+      16_bit_megaman_by_bongwater_bandit_d87w92l_48: -2010211036
+      16_bit_megaman_by_bongwater_bandit_d87w92l_49: -293028704
+      16_bit_megaman_by_bongwater_bandit_d87w92l_5: 2097434930
+      16_bit_megaman_by_bongwater_bandit_d87w92l_50: 429999772
+      16_bit_megaman_by_bongwater_bandit_d87w92l_51: -1649842040
+      16_bit_megaman_by_bongwater_bandit_d87w92l_52: -1300673056
+      16_bit_megaman_by_bongwater_bandit_d87w92l_53: 2044149865
+      16_bit_megaman_by_bongwater_bandit_d87w92l_54: 934091453
+      16_bit_megaman_by_bongwater_bandit_d87w92l_55: 695589328
+      16_bit_megaman_by_bongwater_bandit_d87w92l_56: -1358254699
+      16_bit_megaman_by_bongwater_bandit_d87w92l_57: -1784858689
+      16_bit_megaman_by_bongwater_bandit_d87w92l_58: 1892158987
+      16_bit_megaman_by_bongwater_bandit_d87w92l_59: -1567711132
+      16_bit_megaman_by_bongwater_bandit_d87w92l_6: -1434734436
+      16_bit_megaman_by_bongwater_bandit_d87w92l_60: -1011127889
+      16_bit_megaman_by_bongwater_bandit_d87w92l_61: -2042904610
+      16_bit_megaman_by_bongwater_bandit_d87w92l_62: 1432555944
+      16_bit_megaman_by_bongwater_bandit_d87w92l_63: -1334858668
+      16_bit_megaman_by_bongwater_bandit_d87w92l_64: 2034845212
+      16_bit_megaman_by_bongwater_bandit_d87w92l_65: -1350334842
+      16_bit_megaman_by_bongwater_bandit_d87w92l_66: 1618220586
+      16_bit_megaman_by_bongwater_bandit_d87w92l_67: 1661220945
+      16_bit_megaman_by_bongwater_bandit_d87w92l_68: 738026859
+      16_bit_megaman_by_bongwater_bandit_d87w92l_69: 138154546
+      16_bit_megaman_by_bongwater_bandit_d87w92l_7: 536466195
+      16_bit_megaman_by_bongwater_bandit_d87w92l_70: -843063274
+      16_bit_megaman_by_bongwater_bandit_d87w92l_71: -1719238130
+      16_bit_megaman_by_bongwater_bandit_d87w92l_72: -310585665
+      16_bit_megaman_by_bongwater_bandit_d87w92l_73: -2054096607
+      16_bit_megaman_by_bongwater_bandit_d87w92l_8: -1363715890
+      16_bit_megaman_by_bongwater_bandit_d87w92l_9: -362444573
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
