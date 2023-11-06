@@ -1,11 +1,14 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour
 {
     public static Player Instance;
 
     [SerializeField] private InputManager inputManager;
     [SerializeField] private float moveVelocity = 3f;
+    [SerializeField] private float jumpForce = 3f;
     
     private Transform playerTransform;
     private Rigidbody2D playerRigidBody;
@@ -14,7 +17,11 @@ public class Player : MonoBehaviour
 
     private Vector2 moveDirection;
     private bool isWalking;
+    public bool isJumping;
+    public bool canJump;
+    
     private int isWalkingAnimationHash;
+    private int isJumpingAnimationHash;
     
     private void Awake()
     {
@@ -23,21 +30,45 @@ public class Player : MonoBehaviour
         {
             Instance = this;
         }
+        else
+        {
+            Destroy(this.gameObject);
+        }
         #endregion
+        GetPlayerComponents();
+        GetAnimatorParametersHash();
+        inputManager.OnJumpAction += HandleJumpAction;
+    }
+
+    private void Update()
+    {
+        HandleMovement();
+        HandleAnimation();
+    }
+
+    #region Getters
+    private void GetPlayerComponents()
+    {
         playerTransform = GetComponent<Transform>();
         playerRigidBody = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         playerSprite = GetComponent<SpriteRenderer>();
-        isWalkingAnimationHash = Animator.StringToHash("isWalking");
     }
     
-    private void Update()
+    private void GetAnimatorParametersHash()
     {
-        MovePlayer();
-        AnimatePlayer();
+        isWalkingAnimationHash = Animator.StringToHash("isWalking");
+        isJumpingAnimationHash = Animator.StringToHash("isJumping");
     }
+    #endregion
     
-    private void MovePlayer()
+    #region Handlers
+    private void HandleJumpAction(object sender, EventArgs e)
+    {
+        playerRigidBody.AddForce(Vector2.up * jumpForce);
+    }
+
+    private void HandleMovement()
     {
         moveDirection.x = inputManager.GetMovementDirection();
 
@@ -54,9 +85,11 @@ public class Player : MonoBehaviour
         
         playerTransform.Translate(moveDirection * moveVelocity * Time.deltaTime);
     }
-
-    private void AnimatePlayer()
+    
+    
+    private void HandleAnimation()
     {
+        #region Walking Parameter
         if (isWalking && !playerAnimator.GetBool(isWalkingAnimationHash))
         {
             playerAnimator.SetBool(isWalkingAnimationHash, true);
@@ -65,6 +98,19 @@ public class Player : MonoBehaviour
         {
             playerAnimator.SetBool(isWalkingAnimationHash, false);
         }
+        #endregion
+
+        #region Jumping Parameter
+        if (isJumping && !playerAnimator.GetBool(isWalkingAnimationHash))
+        {
+            playerAnimator.SetBool(isWalkingAnimationHash, true);
+        }
+        else if (!isWalking && playerAnimator.GetBool(isWalkingAnimationHash))
+        {
+            playerAnimator.SetBool(isWalkingAnimationHash, false);
+        }
+        #endregion
     }
+    #endregion
 
 }
