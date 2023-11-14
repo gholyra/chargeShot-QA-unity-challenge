@@ -17,8 +17,8 @@ public class Player : MonoBehaviour
 
     private Vector2 moveDirection;
     private bool isWalking;
-    public bool isJumping;
-    public bool canJump;
+    private bool isJumping;
+    private bool canJump;
     
     private int isWalkingAnimationHash;
     private int isJumpingAnimationHash;

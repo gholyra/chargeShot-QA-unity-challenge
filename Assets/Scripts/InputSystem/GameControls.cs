@@ -43,7 +43,7 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": true
+                    ""initialStateCheck"": false
                 },
                 {
                     ""name"": ""Shoot"",
@@ -93,7 +93,7 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""88295fd9-fe8d-4418-a559-ab6a298742c5"",
                     ""path"": ""<Keyboard>/space"",
-                    ""interactions"": """",
+                    ""interactions"": ""Hold(duration=0.4,pressPoint=0.1)"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Jump"",
