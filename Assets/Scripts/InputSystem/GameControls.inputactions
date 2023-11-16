@@ -29,8 +29,8 @@
                     "id": "ad407cd4-13ea-4fcd-9a9b-8d52251e7556",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "Hold,Tap",
-                    "initialStateCheck": true
+                    "interactions": "Hold(duration=1),Tap(duration=0.2)",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [

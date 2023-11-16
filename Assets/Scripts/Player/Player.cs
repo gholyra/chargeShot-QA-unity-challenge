@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem.Interactions;
+using UnityEngine.Serialization;
 
 [RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Collider))]
 public class Player : MonoBehaviour
 {
     public static Player Instance;
@@ -14,7 +16,8 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform groundPositionChecker;
     
     [SerializeField] private Transform shotAnchor;
-    [SerializeField] private Transform shotPrefab;
+    [FormerlySerializedAs("shotPrefab")] [SerializeField] private Transform normalShotPrefab;
+    [SerializeField] private Transform chargedShotPrefab;
     
     [SerializeField, Range(1f, 10f)] private float jumpFallGravityMultiplier = 3f;
     
@@ -49,7 +52,6 @@ public class Player : MonoBehaviour
         }
 
         #endregion
-
         GetPlayerComponents();
         GetAnimatorParametersHash();
         initialGravityScale = playerRigidBody.gravityScale;
@@ -107,29 +109,42 @@ public class Player : MonoBehaviour
         {
             if (context.interaction is TapInteraction)
             {
-                Debug.Log("cancelou pouco");
+                Debug.Log("Tap Jump Canceled");
             }
             else if (context.interaction is HoldInteraction)
             {
-                Debug.Log("cancelou muito");
+                Debug.Log("Hold Jump Canceled");
             }
         };
     }
-    
+
     private void HandleShootAction(object sender, InputManager.OnHoldInteractionData e)
     {
         e.gameControls.Player.Shoot.started += context =>
         {
             isStandShooting = true;
-            Instantiate(shotPrefab, shotAnchor.position, shotAnchor.rotation);
         };
-        
+
         e.gameControls.Player.Shoot.performed += context =>
+        {
+            if (context.interaction is TapInteraction)
+            {
+                Instantiate(normalShotPrefab, shotAnchor.position, shotAnchor.rotation);
+                isStandShooting = false;
+            }
+            else if (context.interaction is HoldInteraction)
+            {
+                Instantiate(chargedShotPrefab, shotAnchor.position, shotAnchor.rotation);
+                isStandShooting = false;
+            }
+        };
+
+        e.gameControls.Player.Shoot.canceled += context =>
         {
             isStandShooting = false;
         };
     }
-    
+
     private void HandleGravity()
     {
         if (canJump)

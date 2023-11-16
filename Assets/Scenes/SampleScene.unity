@@ -377,7 +377,8 @@ MonoBehaviour:
     m_Bits: 8
   groundPositionChecker: {fileID: 614420502}
   shotAnchor: {fileID: 438634377}
-  shotPrefab: {fileID: 226060468640794092, guid: 1b70e28fdec69094ea74b5581f3ee86b, type: 3}
+  normalShotPrefab: {fileID: 226060468640794092, guid: 1b70e28fdec69094ea74b5581f3ee86b, type: 3}
+  chargedShotPrefab: {fileID: 226060468640794092, guid: 6751dfa049c14e441a9dde889d0ba52d, type: 3}
   jumpFallGravityMultiplier: 3
 --- !u!50 &567620184
 Rigidbody2D:
