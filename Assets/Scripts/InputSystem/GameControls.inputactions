@@ -20,7 +20,7 @@
                     "id": "460f1690-7ee3-4a6f-8f38-05c32d7d1091",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Hold(duration=0.16),Tap(duration=0.8)",
                     "initialStateCheck": false
                 },
                 {
@@ -29,13 +29,13 @@
                     "id": "ad407cd4-13ea-4fcd-9a9b-8d52251e7556",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "Press,Hold",
+                    "interactions": "Hold,Tap",
                     "initialStateCheck": true
                 }
             ],
             "bindings": [
                 {
-                    "name": "1D Axis",
+                    "name": "1D Axis [Keyboard]",
                     "id": "615f9517-f472-41ed-95db-4f59dc40600f",
                     "path": "1DAxis",
                     "interactions": "",
@@ -68,10 +68,54 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "1D Axis [Gamepad]",
+                    "id": "a9a72cd5-6c1b-47c0-8fcc-184a25c7fdf6",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Walk",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "cd484633-41d2-479a-94b1-d606c8bb6817",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Walk",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "b9b0ce62-e192-4842-b710-06feffe25c8c",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Walk",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "",
                     "id": "88295fd9-fe8d-4418-a559-ab6a298742c5",
                     "path": "<Keyboard>/space",
-                    "interactions": "Hold(duration=0.4,pressPoint=0.1)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9609b857-f275-4b4f-b6ce-9983f9c7a3d8",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Jump",
@@ -82,6 +126,17 @@
                     "name": "",
                     "id": "e1bee9dd-8c98-45f6-b269-559734fd55af",
                     "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a1873edc-79e7-4915-aabd-2082727006e1",
+                    "path": "<Gamepad>/buttonWest",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

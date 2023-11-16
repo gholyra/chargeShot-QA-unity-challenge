@@ -1,33 +1,43 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.Interactions;
 
 public class InputManager : MonoBehaviour
 {
-    public event EventHandler OnJumpAction;
-    public event EventHandler OnShootAction;
-    
     private GameControls gameControls;
 
+    public class OnHoldInteractionData : EventArgs
+    {
+        public GameControls gameControls;
+    }
+    
+    public event EventHandler<OnHoldInteractionData> OnJumpAction;
+    public event EventHandler<OnHoldInteractionData> OnShootAction;
+    
     private void Awake()
     {
         gameControls = new GameControls();
         gameControls.Player.Enable();
         
-        gameControls.Player.Jump.performed += Jump_performed;
+        gameControls.Player.Jump.started += Jump_started;
 
-        gameControls.Player.Shoot.performed += Shoot_performed;
+        gameControls.Player.Shoot.started += Shoot_started;
     }
 
-    private void Shoot_performed(InputAction.CallbackContext obj)
+    private void Shoot_started(InputAction.CallbackContext obj)
     {
-        OnShootAction?.Invoke(this, EventArgs.Empty);
+        OnShootAction?.Invoke(this, new OnHoldInteractionData()
+        {
+            gameControls = this.gameControls
+        });
     }
 
-    private void Jump_performed(InputAction.CallbackContext obj)
+    private void Jump_started(InputAction.CallbackContext obj)
     {
-        OnJumpAction?.Invoke(this, EventArgs.Empty);
+        OnJumpAction?.Invoke(this, new OnHoldInteractionData()
+        {
+            gameControls = this.gameControls
+        });
     }
     
     public float GetMovementDirection()
